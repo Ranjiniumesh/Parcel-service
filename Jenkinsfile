@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-              sh 'rm -rf hello-world-war'
-            sh 'git clone https://github.com/Ranjiniumesh/hello-world-war.git'
+              sh 'rm -rf Parcel-service'
+            sh 'git clone https://github.com/Ranjiniumesh/Parcel-service.git'
             }
         }
         stage ('build') {
